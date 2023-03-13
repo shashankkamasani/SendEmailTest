@@ -54,7 +54,9 @@ import java.util.*;
 		
 		public class SMTPAuthenticator extends javax.mail.Authenticator {
 			public PasswordAuthentication getPasswordAuthentication() {
+			System.out.println("add1");	
 				return new PasswordAuthentication(senderEmail, senderPassword);
+				
 			}
 		}				
 	}
