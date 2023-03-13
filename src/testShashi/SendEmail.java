@@ -56,7 +56,6 @@ import java.util.*;
 			public PasswordAuthentication getPasswordAuthentication() {
 			System.out.println("add1");	
 				return new PasswordAuthentication(senderEmail, senderPassword);
-				
 			}
 		}				
 	}
