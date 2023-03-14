@@ -61,7 +61,14 @@ import java.util.*;
 			System.out.println("add1");	
 				return new PasswordAuthentication(senderEmail, senderPassword);
 			}
-		}				
+			
+			
+		}
+		public static void newMethod() {
+			
+			System.out.println("does nothing");
+			System.out.println("second line");
+		}
 	}
 		
 
