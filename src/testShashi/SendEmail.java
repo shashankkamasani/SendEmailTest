@@ -67,6 +67,7 @@ import java.util.*;
 		public static void newMethod() {
 			
 			System.out.println("does nothing");
+			System.out.println("second line");
 		}
 	}
 		
