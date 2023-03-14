@@ -53,6 +53,10 @@ import java.util.*;
 		}
 		
 		public class SMTPAuthenticator extends javax.mail.Authenticator {
+			
+			public static String hello() {
+				return "hello";
+			}
 			public PasswordAuthentication getPasswordAuthentication() {
 			System.out.println("add1");	
 				return new PasswordAuthentication(senderEmail, senderPassword);
