@@ -61,7 +61,10 @@ import java.util.*;
 			System.out.println("add1");	
 				return new PasswordAuthentication(senderEmail, senderPassword);
 			}
-			
+			 
+			public static String helloWorld() {
+				return " hello world";
+			}
 			
 		}
 		public static void newMethod() {
